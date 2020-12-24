@@ -13,6 +13,9 @@ class PreviewFragment : BaseFragment<FragmentPreviewBinding>(R.layout.fragment_p
     private lateinit var picturesAdapter: PicturesAdapter
     private var currentPage = 0
 
+
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.fragment = this // setting the variable for XML

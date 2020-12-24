@@ -38,6 +38,9 @@ class CameraFragment : BaseFragment<FragmentCameraBinding>(R.layout.fragment_cam
         const val KEY_HDR = "sPrefHDR"
     }
 
+
+
+
     private lateinit var displayManager: DisplayManager
     private lateinit var prefs: SharedPrefsManager
     private lateinit var preview: Preview
